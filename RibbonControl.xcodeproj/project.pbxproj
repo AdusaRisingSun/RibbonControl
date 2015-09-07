@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		396BD54C1B9D32C600F4B60D /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 396BD54B1B9D32C600F4B60D /* click.wav */; };
 		39F56B121B9BCBF60091D6BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F56B111B9BCBF60091D6BA /* main.m */; };
 		39F56B151B9BCBF60091D6BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F56B141B9BCBF60091D6BA /* AppDelegate.m */; };
 		39F56B181B9BCBF60091D6BA /* RibbonControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39F56B161B9BCBF60091D6BA /* RibbonControl.xcdatamodeld */; };
@@ -15,6 +16,8 @@
 		39F56B201B9BCBF60091D6BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F56B1F1B9BCBF60091D6BA /* Images.xcassets */; };
 		39F56B231B9BCBF60091D6BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F56B211B9BCBF60091D6BA /* LaunchScreen.xib */; };
 		39F56B2F1B9BCBF60091D6BA /* RibbonControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F56B2E1B9BCBF60091D6BA /* RibbonControlTests.m */; };
+		39F56B3A1B9BCD490091D6BA /* RibbonPull.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F56B391B9BCD490091D6BA /* RibbonPull.m */; };
+		39F56B3C1B9BE24C0091D6BA /* Ribbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 39F56B3B1B9BE24C0091D6BA /* Ribbon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		396BD54B1B9D32C600F4B60D /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
 		39F56B0C1B9BCBF60091D6BA /* RibbonControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RibbonControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F56B101B9BCBF60091D6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F56B111B9BCBF60091D6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +46,9 @@
 		39F56B281B9BCBF60091D6BA /* RibbonControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RibbonControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F56B2D1B9BCBF60091D6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F56B2E1B9BCBF60091D6BA /* RibbonControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibbonControlTests.m; sourceTree = "<group>"; };
+		39F56B381B9BCD490091D6BA /* RibbonPull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RibbonPull.h; sourceTree = "<group>"; };
+		39F56B391B9BCD490091D6BA /* RibbonPull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RibbonPull.m; sourceTree = "<group>"; };
+		39F56B3B1B9BE24C0091D6BA /* Ribbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ribbon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +94,11 @@
 				39F56B141B9BCBF60091D6BA /* AppDelegate.m */,
 				39F56B191B9BCBF60091D6BA /* ViewController.h */,
 				39F56B1A1B9BCBF60091D6BA /* ViewController.m */,
+				39F56B381B9BCD490091D6BA /* RibbonPull.h */,
+				39F56B391B9BCD490091D6BA /* RibbonPull.m */,
+				396BD54B1B9D32C600F4B60D /* click.wav */,
 				39F56B1C1B9BCBF60091D6BA /* Main.storyboard */,
+				39F56B3B1B9BE24C0091D6BA /* Ribbon.png */,
 				39F56B1F1B9BCBF60091D6BA /* Images.xcassets */,
 				39F56B211B9BCBF60091D6BA /* LaunchScreen.xib */,
 				39F56B161B9BCBF60091D6BA /* RibbonControl.xcdatamodeld */,
@@ -203,6 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F56B1E1B9BCBF60091D6BA /* Main.storyboard in Resources */,
+				39F56B3C1B9BE24C0091D6BA /* Ribbon.png in Resources */,
+				396BD54C1B9D32C600F4B60D /* click.wav in Resources */,
 				39F56B231B9BCBF60091D6BA /* LaunchScreen.xib in Resources */,
 				39F56B201B9BCBF60091D6BA /* Images.xcassets in Resources */,
 			);
@@ -223,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F56B151B9BCBF60091D6BA /* AppDelegate.m in Sources */,
+				39F56B3A1B9BCD490091D6BA /* RibbonPull.m in Sources */,
 				39F56B121B9BCBF60091D6BA /* main.m in Sources */,
 				39F56B1B1B9BCBF60091D6BA /* ViewController.m in Sources */,
 				39F56B181B9BCBF60091D6BA /* RibbonControl.xcdatamodeld in Sources */,
@@ -422,6 +436,7 @@
 				39F56B341B9BCBF60091D6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39F56B351B9BCBF60091D6BA /* Build configuration list for PBXNativeTarget "RibbonControlTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +445,7 @@
 				39F56B371B9BCBF60091D6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
